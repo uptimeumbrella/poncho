@@ -1,0 +1,16 @@
+{
+  "name": "poncho",
+  "description": "Uptime Umbrella microservice for monitoring sites",
+  "author": "John Otander",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "micro -p 3000 index.js"
+  },
+  "repository": "uptimeumbrella/poncho",
+  "license": "MIT",
+  "dependencies": {
+    "heady": "^1.0.4",
+    "is-present": "^1.0.0",
+    "micro": "^6.1.0"
+  }
+}
